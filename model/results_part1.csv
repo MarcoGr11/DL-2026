@@ -1,0 +1,4 @@
+тюнер,місце,units_input,val_accuracy,test_accuracy,test_loss
+RandomSearch,1,928,0.8425,0.8325,0.4867
+RandomSearch,2,992,0.842,0.8329,0.4907
+RandomSearch,3,512,0.8418,0.834,0.4875

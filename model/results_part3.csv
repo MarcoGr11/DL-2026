@@ -1,0 +1,4 @@
+тюнер,місце,activation,units_input,units_hidden,optimizer,val_accuracy,test_accuracy,test_loss
+BayesianOptimization,1,elu,800,640,adam,0.8987,0.8933,0.334
+BayesianOptimization,2,relu,384,352,rmsprop,0.8942,0.8874,0.3402
+BayesianOptimization,3,relu,128,768,rmsprop,0.8935,0.8858,0.357

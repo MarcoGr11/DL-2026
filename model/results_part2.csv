@@ -1,0 +1,4 @@
+тюнер,місце,units_input,units_hidden,val_accuracy,test_accuracy,test_loss
+BayesianOptimization,1,1024,864,0.8558,0.8451,0.4446
+BayesianOptimization,2,1024,1024,0.8543,0.8412,0.4526
+BayesianOptimization,3,928,256,0.8518,0.8427,0.452

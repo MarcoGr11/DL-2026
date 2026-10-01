@@ -1,0 +1,10 @@
+тюнер,місце,activation,units_input,num_layers,units_0,optimizer,units_1,units_2,val_accuracy,test_accuracy,test_loss,units_3,tuner/epochs,tuner/initial_epoch,tuner/bracket,tuner/round,tuner/trial_id
+RandomSearch,1,relu,736,3,768,adam,352,128,0.8997,0.8928,0.3696,,,,,,
+RandomSearch,2,relu,896,2,224,adam,864,224,0.8987,0.8913,0.3438,,,,,,
+RandomSearch,3,relu,576,2,800,adam,224,320,0.8971,0.8873,0.4086,960.0,,,,,
+Hyperband,1,relu,736,1,512,adam,512,480,0.8982,0.8929,0.3398,480.0,20.0,7.0,1.0,1.0,0019
+Hyperband,2,tanh,896,1,512,adam,576,512,0.8971,0.8909,0.3209,480.0,20.0,7.0,2.0,2.0,0012
+Hyperband,3,tanh,384,2,256,adam,672,672,0.8956,0.8907,0.3492,544.0,20.0,7.0,2.0,2.0,0013
+BayesianOptimization,1,relu,448,2,992,adam,800,416,0.8948,0.8931,0.3644,896.0,,,,,
+BayesianOptimization,2,elu,256,4,480,adam,288,128,0.8941,0.8843,0.3451,128.0,,,,,
+BayesianOptimization,3,sigmoid,864,4,384,adam,768,864,0.8883,0.8806,0.3445,480.0,,,,,
